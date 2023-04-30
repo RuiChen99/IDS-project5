@@ -55,7 +55,7 @@ sample_submission.csv - A sample submission file in the correct format.
 row_id - Same as in test.csv.
 target - Same definition as in train.csv. The benchmark is using the median target value from train.csv.
 
-# To implement this project
+# Project implement
 
 ## step1: store data into AWS S3
 a. go to AW3 S3 console, click "add bucket"
