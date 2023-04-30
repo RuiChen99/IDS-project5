@@ -1,6 +1,6 @@
-# IDS721-Project5
+# IDS721-Project5：Predictions for Starups' Operations
 # Introduction
-This is the individual project3 for the course IDS721. I used XGBoost/Random forest/PCA in AWS SageMaker to train the model based on startup Dataset and tested the trained model using SageMaker's Batch Transform functionality. I also compares the actual and predicted values in a table called a confusion matrix. Besides, I implemented S3 to store the data in the cloud.
+This is the final group project for the course IDS721. We used XGBoost/Random forest/PCA in AWS SageMaker to train the model based on startup Dataset and tested the trained model using SageMaker's Batch Transform functionality. We also compares the actual and predicted values in a table called a confusion matrix. Besides, we implemented S3 to store the data in the cloud.
 
 # Dataset Context
 A startup or start-up is a company or project begun by an entrepreneur to seek, develop, and validate a scalable economic model. While entrepreneurship refers to all new businesses, including self-employment and businesses that never intend to become registered, startups refer to new businesses that intend to grow large beyond the solo founder. Startups face high uncertainty and have high rates of failure, but a minority of them do go on to be successful and influential. Some startups become unicorns: privately held startup companies valued at over US$1 billion. [Source of information: Wikipedia]
