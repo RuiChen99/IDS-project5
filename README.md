@@ -1,4 +1,4 @@
-# IDS721-Project5：Predictions for the Operations of Starups
+# IDS721-Project5：Optiver Realized Volatility Prediction
 # Introduction
 This is the final group project for the course IDS721. We found an interesting feature code competition on Kaggle in June and decided to use it for a systematic exercise. The competition called "Optiver Realized Volatility Prediction" was launched by Optiver, a leading global electronic market maker. This competition lasts for three months and aims to predict short-term volatility for hundreds of stocks across different sectors through the establishment of models. In financial markets, volatility captures the amount of fluctuation in prices. For trading firms like Optiver, accurately predicting volatility is essential for the trading of options, whose price is directly related to the volatility of the underlying product. Optiver’s teams have spent countless hours building sophisticated models that predict volatility and continuously generate fairer options prices for end investors. Optiver wants to take its model to the next level with the help of this competition. 
 
