@@ -38,8 +38,7 @@ status(acquired/closed) – categorical (the target variable, if a startup is �
 a. go to AW3 S3 console, click "add bucket"
 <img width="1120" alt="6b67a5e08b2cdc5960de721e65aeffc" src="https://user-images.githubusercontent.com/122952572/227016699-04d120c9-862e-4523-9cbe-d3d3c0336a2b.png">
 b. upload your file into your bucket
-<img width="1120" alt="WechatIMG37" src="https://user-images.githubusercontent.com/123079408/235374702-b6fdfcd2-2258-4106-9a1e-ced1bcaa404a.png">
-
+<img width="1120" alt="43acd81ce5570c606712f055059cfa5" src="https://user-images.githubusercontent.com/122952572/227016812-43de35fb-9524-41a0-aa00-7c297941194d.png">
 
 # step2: go to AWS sagemarket and lauch your notebook
 a. go to AWS sagemarket console, click "notebook"
@@ -53,32 +52,24 @@ configure your notebook as following
 ![image](https://user-images.githubusercontent.com/122952572/227017659-e551c0c9-ffd8-4958-921f-54cbfa79ead9.png)
 
 c. wait a few minutes. In the Notebook instances section, the new SageMaker-Tutorial notebook instance is displayed with a Status of Pending. The notebook is ready when the Status changes to InService.
-<img width="1120" alt="WechatIMG40" src="https://user-images.githubusercontent.com/123079408/235374859-a50a9c36-7c78-4073-8385-b191e4c78339.png">
-
 <img width="1120" alt="78b443a298c7680bb1dacd417a6c0e0" src="https://user-images.githubusercontent.com/122952572/227017854-f9ec3f21-8b6e-4592-80f8-dbebaabc9546.png">
+
 
 <img width="563" alt="09adc7afdd89deca12a112b1f6d7154" src="https://user-images.githubusercontent.com/122952572/227017905-cf1dabb2-d373-48fa-af5e-0a9a7ed3afbc.png">
 
 
 d. After your SageMaker-Tutorial notebook instance status changes to InService, choose Open Jupyter.
-<img width="1120" alt="WechatIMG46" src="https://user-images.githubusercontent.com/123079408/235375110-a049ca2b-7de2-4faf-833c-b427befe344d.png">
-
 e. In Jupyter, choose New and then choose conda_python3.
 
-# step3: Amazon API Gateway 
-API Gateway can be used to present an external-facing, single point of entry for Amazon SageMaker endpoints：
-<img width="1120" alt="image" src="https://user-images.githubusercontent.com/123079408/235375571-4e0f46ac-78c7-4822-9b7f-a15cfbf067f8.png">
-
-For the teat result, please refer to the link: https://7iz1uma2gk.execute-api.us-east-1.amazonaws.com/test.
-
+# step3: store data into AWS S3
 
 # step4: load test - locust
-The load test we used is locust. 
+We used locust for load teat
 a. Install: pip3 install locust
 b. Run: locust -f locustfile.py --host=https://7iz1uma2gk.execute-api.us-east-1.amazonaws.com
-c. Go to http://localhost:8089 in your browser and enter Locust's web console:
+c. Once you have run it. Go to http://localhost:8089 in your browser and enter Locust's web console like this:
 
-<img width="1280" alt="image" src="https://user-images.githubusercontent.com/123079408/235375692-94c66782-d8c0-4e1d-9f22-287db78b23e8.png">
+
 
 
 
