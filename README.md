@@ -61,7 +61,10 @@ target - Same definition as in train.csv. The benchmark is using the median targ
 a. go to AW3 S3 console, click "add bucket"
 <img width="1120" alt="6b67a5e08b2cdc5960de721e65aeffc" src="https://user-images.githubusercontent.com/122952572/227016699-04d120c9-862e-4523-9cbe-d3d3c0336a2b.png">
 b. upload your file into your bucket
-<img width="1120" alt="43acd81ce5570c606712f055059cfa5" src="https://user-images.githubusercontent.com/122952572/227016812-43de35fb-9524-41a0-aa00-7c297941194d.png">
+<img width="764" alt="image" src="https://user-images.githubusercontent.com/123079408/235381520-7f52d5f5-695a-46d0-ac38-380b78edf955.png">
+
+<img width="840" alt="WechatIMG219的副本" src="https://user-images.githubusercontent.com/123079408/235381580-53ffb3b3-b2ba-4753-b080-78cab901dcfe.png">
+
 
 ## step2: go to AWS sagemarket and lauch your notebook
 a. go to AWS sagemarket console, click "notebook"
@@ -75,8 +78,7 @@ configure your notebook as following
 ![image](https://user-images.githubusercontent.com/122952572/227017659-e551c0c9-ffd8-4958-921f-54cbfa79ead9.png)
 
 c. wait a few minutes. In the Notebook instances section, the new SageMaker-Tutorial notebook instance is displayed with a Status of Pending. The notebook is ready when the Status changes to InService.
-<img width="1120" alt="78b443a298c7680bb1dacd417a6c0e0" src="https://user-images.githubusercontent.com/122952572/227017854-f9ec3f21-8b6e-4592-80f8-dbebaabc9546.png">
-
+<img width="1120" alt="WechatIMG40" src="https://user-images.githubusercontent.com/123079408/235381659-e462d79d-9ab5-4513-b094-59f4d175d94e.png">
 
 <img width="563" alt="09adc7afdd89deca12a112b1f6d7154" src="https://user-images.githubusercontent.com/122952572/227017905-cf1dabb2-d373-48fa-af5e-0a9a7ed3afbc.png">
 
