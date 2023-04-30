@@ -1,4 +1,4 @@
-# IDS721-Project3
+# IDS721-Project5
 # Introduction
 This is the individual project3 for the course IDS721. I used XGBoost/Random forest/PCA in AWS SageMaker to train the model based on startup Dataset and tested the trained model using SageMaker's Batch Transform functionality. I also compares the actual and predicted values in a table called a confusion matrix. Besides, I implemented S3 to store the data in the cloud.
 
