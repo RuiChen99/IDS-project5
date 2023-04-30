@@ -1,4 +1,4 @@
-# IDS721-Project5：Predictions for Starups' Operations
+# IDS721-Project5：Predictions for the Operations of Starups
 # Introduction
 This is the final group project for the course IDS721. We used XGBoost/Random forest/PCA in AWS SageMaker to train the model based on startup Dataset and tested the trained model using SageMaker's Batch Transform functionality. We also compares the actual and predicted values in a table called a confusion matrix. Besides, we implemented S3 to store the data in the cloud.
 
