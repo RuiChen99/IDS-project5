@@ -120,4 +120,6 @@ Please check load test result:
 6. Clean up (Not terminating your resources will result in charges to your account.)
  
  
- For the full result, please refer to this https://github.com/ht175/IDS721-Project3/blob/main/start_up_prediction.ipynb
+ For the full result, please refer to this link: https://github.com/RuiChen99/IDS721-project5/blob/main/sagemarket%20version.ipynb
+ For the source version, please refer to this link: https://github.com/RuiChen99/IDS721-project5/blob/main/yycsensemble-kfold.ipynb
+ For the more about competition on Kaggle, please refer to this link: https://github.com/RuiChen99/IDS721-project5/blob/main/KaggleReport.docx
